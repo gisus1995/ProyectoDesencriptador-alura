@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desencriptador Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Protest+Strike&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenido">
+            <h1>Desencriptador Encriptador</h1>
+            <h2>Aplicacion de gran utilidad para lograr encriptar textos importantes y lograr descifrar mensajes secretos</h2>
+    </div>
+    <main>
+        <div class="container">
+            <section class="columna1">
+                <form action="">
+                    <label for="Mensaje"></label>
+                    <textarea id="Mensaje" cols="70" rows="10" class="padron" placeholder="Escriba Aca" required></textarea>
+                </form>
+                <div class="alerta">
+                    <p>Solo texto minusculas y sin acento</p>
+
+                </div>
+                <fieldset class="contenedor-botones">
+                    <input type="button" class="btn-encriptar" value="Encriptar">
+                    <input type="button" class="btn-desencriptar" value="Desencriptar">
+                </fieldset>
+            </section>
+            <section class="columna2">
+                <div class="contenedor-parrafo">
+                    <h3>No se ha ingresado ningun Texto</h3>
+                    <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
+                <div class="contenedor-copiar">
+                    <input type="button" class="btn-copiar" value="copiar">
+                </div>
+                <div class="contenedor-finalresultado">
+                    <p class="texto-final"></p>
+                </div>
+
+
+            </section>
+        </div>
+    </main>
+    <script src="/script.js"></script>
+    <footer>
+        <p class="copyright">Jesus Suarez Encriptador &copy copyright</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,152 @@
+body {
+    font-family: "Protest Strike", sans-serif;
+    background-image: url(statics.jpg/fondos-para-páginas-web-6.jpg);
+    background-position: center;
+
+}
+
+.contenido {
+    text-align: center;
+    padding: 20px;
+}
+
+div h1{
+    color: rgb(3, 134, 3);
+}
+
+div h2{
+    font-size: 20px;
+    color: rgb(244, 247, 250);
+    border: #333;
+}
+
+form{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.padron {
+    font-size: 16px;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+
+.columna1 {
+    flex: 1;  
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px; 
+}
+
+.alerta p{
+    color: #ccc;
+    text-align: center;
+    
+}
+
+.contenedor-botones{
+    top: 800px;
+    height: 80px;
+    padding-left: 15%;
+    padding-top: 15px ;
+}
+
+.btn-encriptar{
+    width: 200px;
+    height: 60px;
+    border-radius: 24px;
+    color: #ccc;
+    background-color:rgb(3, 36, 3) ;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid rgb(15, 14, 14);
+    cursor: pointer;
+}
+
+.btn-desencriptar{
+    width: 200px;
+    height: 60px;
+    border-radius: 24px;
+    color: #ccc;
+    background-color:rgb(20, 12, 37) ;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid rgb(15, 14, 14);
+    cursor: pointer;
+}
+
+.columna2 {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.contenedor-parrafo{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.contenedor-parrafo h3{
+    color: #ccc;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contenedor-parrafo p{
+    color: #ccc;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contenedor-finalresultado{
+    bottom: 200px;
+    color: #ccc;
+}
+.contenedor-copiar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 250px;
+    padding-left: 225px;
+    
+}
+.btn-copiar{
+    width: 320px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color:rgb(20, 12, 37) ;
+    color: #ccc;
+    font-weight: 300;;
+}
+
+.ocultar{
+    display: none;
+}
+
+footer{
+    color: #ccc;
+    text-align: center;
+}
+
+
+
